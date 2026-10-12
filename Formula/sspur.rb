@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.7.0"
+  version "0.7.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-aarch64-apple-darwin.tar.gz"
-      sha256 "6f66cfa195d2f2fa905794135f9e14c864b10e1d4590c59fbfcb3580e5845c8d"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.1/sspur-v0.7.1-aarch64-apple-darwin.tar.gz"
+      sha256 "a2a5a713f7504e0c840a302db639afd1fec765032c17939ecc77a835286f748a"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-x86_64-apple-darwin.tar.gz"
-      sha256 "8ded2aa34d9fd584f07bcd3efd4b1ea69c1b2b6f6abd0d4fd142c9126c7e03b4"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.1/sspur-v0.7.1-x86_64-apple-darwin.tar.gz"
+      sha256 "e5fdd72d1757ca3c6af731d68c5213301db1e27a0b6cb163105e2ee7d023d12f"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "37ea21714fe5f2660f31c7b292b5800fc8dcd1fea229d2a286cc4cd9134abc08"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.1/sspur-v0.7.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "f05b89b1efffdbe93e91d5f3ef2307d0eff7bc1923bcb894cd290dfa066d3c10"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "586010452140fb1f4740dd9bc542f6812faab08a879e8348d0a49fe61dd66c28"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.1/sspur-v0.7.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "32f6835793598d1e3a1dd0d5f8e4c02378a221691de0eafbda27cdc2aef63a52"
     end
   end
 

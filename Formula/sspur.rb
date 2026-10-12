@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.6.0"
+  version "0.7.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.6.0/sspur-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "061d2740bec837c1b1ce22fb03bb128e8c91b89cc69759a5479bf82733f46fea"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "6f66cfa195d2f2fa905794135f9e14c864b10e1d4590c59fbfcb3580e5845c8d"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.6.0/sspur-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "49ba33be1ff20505191627d641f2ad50c796c13dd07908a09e8c9a14cb5da06c"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8ded2aa34d9fd584f07bcd3efd4b1ea69c1b2b6f6abd0d4fd142c9126c7e03b4"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.6.0/sspur-v0.6.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "30bdadd1a307c03403170f884d119f2e4546eae80fab19a62b8c12c49d96f512"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "37ea21714fe5f2660f31c7b292b5800fc8dcd1fea229d2a286cc4cd9134abc08"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.6.0/sspur-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "cbe8055d112e9fb3da23d47d6876fe71807bfb15dc4311c050927063e87dd534"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.7.0/sspur-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "586010452140fb1f4740dd9bc542f6812faab08a879e8348d0a49fe61dd66c28"
     end
   end
 

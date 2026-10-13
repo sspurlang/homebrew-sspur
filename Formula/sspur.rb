@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.8.0"
+  version "0.8.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.0/sspur-v0.8.0-aarch64-apple-darwin.tar.gz"
-      sha256 "75009a8a3dd04c2e95cdf3a7a8683eca10d56b10430399d42f2cbeb67a0e6d84"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.1/sspur-v0.8.1-aarch64-apple-darwin.tar.gz"
+      sha256 "627916773e8479168df18c200f27aaf3ec63e00b8e0ad97be6139fef8574098d"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.0/sspur-v0.8.0-x86_64-apple-darwin.tar.gz"
-      sha256 "c483ffd318aa54fe625e8146609295c3339f5f560cdb6491af54621da603c429"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.1/sspur-v0.8.1-x86_64-apple-darwin.tar.gz"
+      sha256 "62a4bc1dce04baf89c409c77c094b232a027361225b2259eb2f67c110012a16f"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.0/sspur-v0.8.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "81fa92d8f4db4885734ed736a5603d28e7b81d49dd98cb6a77312f4a3ed6bf85"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.1/sspur-v0.8.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "ea3e056435cc41c2132ace1e92a1b4295c4e7ae46f33b3f54370202d79b00e77"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.0/sspur-v0.8.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a44ef01ec243d263a34e2147e1ff29b47769530565be6149f84d975294f960e6"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.8.1/sspur-v0.8.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "e5012299ffe78517d6fba368ddfb1d3ffe5ea3c1f849c0926e95fad0de0e1bca"
     end
   end
 

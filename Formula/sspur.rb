@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.12.0"
+  version "0.12.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.0/sspur-v0.12.0-aarch64-apple-darwin.tar.gz"
-      sha256 "8ff3cfd964bc6f74da89b02277d381fecba28bb3ad1cadabf6f0944d9432a9a1"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.1/sspur-v0.12.1-aarch64-apple-darwin.tar.gz"
+      sha256 "68b7328ce34a72a2d7677954cf11a394bbfe1c77aba3952b9648f5552e26a0a3"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.0/sspur-v0.12.0-x86_64-apple-darwin.tar.gz"
-      sha256 "1224f084e1fb18e3a41d37a66e9417ad3d45ec9cba889cdd15b8ecf6d453a732"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.1/sspur-v0.12.1-x86_64-apple-darwin.tar.gz"
+      sha256 "0d590683d744029c39861fe55dd1e092461baf98e4697130a3baeec76724560f"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.0/sspur-v0.12.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "de484253c28e5f6f46b705597b2ad63b1c7d56f41d3d1ee531fc483e4bac5060"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.1/sspur-v0.12.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "69875baae210fbcc2cd5ccf3f0af6a6f54c6e0fe1aeeb0c39f10715692a1df36"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.0/sspur-v0.12.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "318813555c54f5221e24b8122632735c5edd925e82049996dfd98f519b0e0332"
+      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.12.1/sspur-v0.12.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "462cfbd06958dbe5ecd0e92196d7ba1a38efb1ab48a6e10b6612301e1263d954"
     end
   end
 

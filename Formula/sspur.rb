@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
-  homepage "https://github.com/utkarshavardhana/sspur"
-  version "0.13.0"
+  homepage "https://github.com/sspurlang/sspur"
+  version "0.13.1"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.13.0/sspur-v0.13.0-aarch64-apple-darwin.tar.gz"
-      sha256 "edd5ed3a528233cfe15b40f240d95ec1b3c917564158fdccddf0cffdf3efb2bb"
+      url "https://github.com/sspurlang/sspur/releases/download/v0.13.1/sspur-v0.13.1-aarch64-apple-darwin.tar.gz"
+      sha256 "fec7694221da5f47ef8fc6aeebec802f85037c29cf8d973b0b55a3510f3b2a0b"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.13.0/sspur-v0.13.0-x86_64-apple-darwin.tar.gz"
-      sha256 "b48567d5c1a4d5104ff48c7f6baa274c418be69e14647ec4c4472fb8bf50fb1d"
+      url "https://github.com/sspurlang/sspur/releases/download/v0.13.1/sspur-v0.13.1-x86_64-apple-darwin.tar.gz"
+      sha256 "889bfee0b75ab56746734f468c5c93342b4f05abba8e6452128145118fe5b62c"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.13.0/sspur-v0.13.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "b9ba8fce9fde20c3ae2fd8361db06810b0f99f1e85cbee477df0998a8e13f164"
+      url "https://github.com/sspurlang/sspur/releases/download/v0.13.1/sspur-v0.13.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b082cf2d8bb1408108d87ea6a7bdbcbf720cf408cd7f53d6fea4ebdbf6b845ea"
     end
     on_intel do
-      url "https://github.com/utkarshavardhana/sspur/releases/download/v0.13.0/sspur-v0.13.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a932e20e1b86dc1764cb907ab38f876ae8a49dac82e725306e387df66b4fcc14"
+      url "https://github.com/sspurlang/sspur/releases/download/v0.13.1/sspur-v0.13.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "28d9a8ae217c3dcbed71d82bfbe01507d4596bae2b948d5e7eb0caedea75ca94"
     end
   end
 

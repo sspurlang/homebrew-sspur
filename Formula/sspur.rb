@@ -1,17 +1,17 @@
 class Sspur < Formula
   desc "Programming language for AI agents to write, read and maintain"
   homepage "https://github.com/sspurlang/sspur"
-  version "0.15.0"
+  version "1.0.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/sspurlang/sspur/releases/download/v0.15.0/sspur-v0.15.0-aarch64-apple-darwin.tar.gz"
-      sha256 "3c114ee17587140ee067c4820f88cebf3d8fa184ad24c7277ec553e536407eb0"
+      url "https://github.com/sspurlang/sspur/releases/download/v1.0.0/sspur-v1.0.0-aarch64-apple-darwin.tar.gz"
+      sha256 "071ef77d8b04da209c5203a015313c97098b70593ee8dfb560764e6cad6ff217"
     end
     on_intel do
-      url "https://github.com/sspurlang/sspur/releases/download/v0.15.0/sspur-v0.15.0-x86_64-apple-darwin.tar.gz"
-      sha256 "9e0b8e70e1f3446c417afacca4c0fe5af02c95031e4b65b0b4d1da35f7eb7c8e"
+      url "https://github.com/sspurlang/sspur/releases/download/v1.0.0/sspur-v1.0.0-x86_64-apple-darwin.tar.gz"
+      sha256 "34a3f31fc5810b70ebfcdbe29f2bb2f873b8fcf752d5a6cb3f9e7f49966a7c90"
     end
   end
 
@@ -19,12 +19,12 @@ class Sspur < Formula
     depends_on "llvm"
 
     on_arm do
-      url "https://github.com/sspurlang/sspur/releases/download/v0.15.0/sspur-v0.15.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "361246c99d20f2c51c4b72c23fd59049258efad3f72f63c5741727972b140956"
+      url "https://github.com/sspurlang/sspur/releases/download/v1.0.0/sspur-v1.0.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b447bea59ba1350f003cde059321ad90f0d0dfff11772258d4b92eff613ffa69"
     end
     on_intel do
-      url "https://github.com/sspurlang/sspur/releases/download/v0.15.0/sspur-v0.15.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "9844b7290d6ff3d8d075b524e241cacb15f76fadf1672e827898e2e9103f0b0e"
+      url "https://github.com/sspurlang/sspur/releases/download/v1.0.0/sspur-v1.0.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "1d94d196571395d8b8a772f734d3d60605221aaea8c17f156cd10a9c43d482dd"
     end
   end
 
